@@ -1,6 +1,6 @@
 <?php
 
-namespace Nette\Addons\SuggestInput;
+namespace ADT\SuggestInput;
 
 /**
  * A model that can return items from a list matching a given pattern

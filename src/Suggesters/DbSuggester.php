@@ -1,6 +1,6 @@
 <?php
 
-namespace Nette\Addons\SuggestInput;
+namespace ADT\SuggestInput;
 
 /**
  * A suggester that uses DB for fetching suggestions

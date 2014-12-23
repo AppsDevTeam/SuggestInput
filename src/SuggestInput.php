@@ -1,6 +1,6 @@
 <?php
 
-namespace Nette\Addons;
+namespace ADT;
 
 require_once dirname(__FILE__) . '/Suggesters/ISuggester.php';
 include_once dirname(__FILE__) . '/Suggesters/ConstantSuggester.php';

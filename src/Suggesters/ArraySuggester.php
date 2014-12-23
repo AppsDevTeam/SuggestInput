@@ -1,6 +1,6 @@
 <?php
 
-namespace Nette\Addons\SuggestInput;
+namespace ADT\SuggestInput;
 
 use \Nette\Utils\Strings;
 
