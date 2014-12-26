@@ -262,7 +262,7 @@ class SuggestInput extends \Nette\Forms\Controls\TextInput
      *
      * Used only for Form::extensionMethod
      * 
-     * @param Form $form            The form where the input should be added
+     * @param Form | Container $form            The form where the input should be added
      * @param string $name          Name of the control
      * @param string $label         Label of the control
      * @param string $suggestLink   URL to the page where the control can fetch
@@ -275,7 +275,7 @@ class SuggestInput extends \Nette\Forms\Controls\TextInput
      *
      * @return SuggestInput
      */
-    public static function addSuggestInput(\Nette\Forms\Form $form, $name, $label, $suggestLink = NULL, SuggestInput\ISuggester $suggester = NULL, $cols = NULL, $maxLength = NULL)
+    public static function addSuggestInput($form, $name, $label, $suggestLink = NULL, SuggestInput\ISuggester $suggester = NULL, $cols = NULL, $maxLength = NULL)
     {
 		return $form[$name] = new SuggestInput($label, $suggestLink, $suggester, $cols, $maxLength);
     }
