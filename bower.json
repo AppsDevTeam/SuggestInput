@@ -1,0 +1,12 @@
+{
+	"name": "adt-suggest-input",
+	"license": "MIT",
+	"keywords": ["nette", "ajax", "jquery"],
+	"main": "nette.ajax.js",
+	"ignore": [
+		"readme.md"
+	],
+	"dependencies": {
+		"jquery": ">=1.7.0"
+	}
+}
