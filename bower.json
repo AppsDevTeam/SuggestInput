@@ -4,7 +4,9 @@
 	"keywords": ["nette", "ajax", "jquery"],
 	"main": "nette.ajax.js",
 	"ignore": [
-		"readme.md"
+		"README.md",
+		"src/",
+		"composer.json"
 	],
 	"dependencies": {
 		"jquery": ">=1.7.0"
