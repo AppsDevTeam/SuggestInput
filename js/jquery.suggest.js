@@ -93,11 +93,6 @@
 		$input.blur(function() {
 			setTimeout(function() { $results[id].hide() }, 200);
 		});
-			
-		// help IE users if possible
-		try {
-			$results[id].bgiframe();
-		} catch(e) { }
 		
 		
 		$input.keydown(processKey);
